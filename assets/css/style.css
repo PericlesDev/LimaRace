@@ -658,12 +658,12 @@
   text-transform: uppercase;
   font-size: var(--fontSize-7);
   font-weight: var(--weight-semiBold);
-  color: var(--gold-crayola);
+  color: tomato;
 }
 
 .navbar-link:hover {
   transition: 1.5s ease;
-  background-color: tomato;
+  color: var(--gold-crayola);
 }
 
 .navbar-item { border-block-start: 1px solid var(--border-space-cadet); }
